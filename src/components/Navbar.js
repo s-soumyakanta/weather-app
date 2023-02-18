@@ -5,14 +5,14 @@ const Navbar = () => {
   const [searhHistory,setSearchHistoy] = useState(false)
   return (
     <>
-    <div className='flex justify-center relative'>
+    <div className='flex justify-center relative font-ubuntu ' onClick={()=> setSearchHistoy(!searhHistory) }>
 
 
     <header className=' flex h-12 items-center rounded-full w-full   justify-between '>
         <form className='h-full rounded-l-full  w-full ' >
-          <input placeholder='Search a location...' type="text" onClick={()=> setSearchHistoy(!searhHistory) }  className= 'rounded-l-full px-3 text-lg w-full h-full  bg-gray-200 text-red-500'/>
+          <input placeholder='Search a location...' type="text"   className= 'rounded-l-full px-3 text-lg w-full h-full  bg-gray-200 text-black'/>
         </form>
-        <div className=' h-full py-3 flex items-center rounded-r-full bg-gray-200 px-2 cursor-pointer ' onClick={()=> setSearchHistoy(!searhHistory) }><img src={SearchIcon} alt="Search Icon"   /></div>
+        <div className=' h-full py-3 flex items-center rounded-r-full bg-gray-200 px-2 cursor-pointer ' ><img src={SearchIcon} alt="Search Icon"   /></div>
 
     </header>
     {

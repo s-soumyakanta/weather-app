@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        "ubuntu":['Ubuntu'],
+        "poppins":['Poppins'],
+        "lato":['Lato']
+      }
+    },
   },
   plugins: [],
 }

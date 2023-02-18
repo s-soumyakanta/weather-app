@@ -6,13 +6,13 @@ const WeatherInfo = () => {
   return (
     <>
     
-      <div className='  h-[33rem] items-center flex flex-col justify-between '>
+      <div className='  h-[33rem] items-center flex flex-col justify-between font-poppins font-thin'>
         
 
         <div className='flex relative items-center  flex-col w-full h-5/6 '>
-          <h2 className='text-5xl text-gray-100'>New Delhi</h2>
-         <p className='text-xl mt-2 text-gray-200'>Partially foggy</p>
-          <p className='text-[9rem] z-0 -mt-6 text-gray-100 '>33° </p>
+          <h2 className='text-5xl text-gray-100 font-lato font-bold '>New Delhi</h2>
+         <p className='text-xl mt-2 text-gray-200 font-ubuntu'>Partially foggy</p>
+          <p className='text-[9rem] z-0 -mt-6 text-gray-100 font-lato'>33° </p>
           {/* <p className='text-2xl  z-10'>C/F</p>  */}
           <div className='absolute bottom-0 selection:z-10 right-5 flex items-center justify-center w-52 h-52  border-none'>
 
