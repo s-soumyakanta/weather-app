@@ -141,7 +141,7 @@ const SearchBar = ({ searchData }) => {
                 allSearches.map((elem)=>{
                   return(
 
-                <div className=" text-lg bg-slate-100 rounded-full px-2 mx-1 my-2 inline-block" key={elem.id} onClick={() =>searchData(elem)}>
+                <div className=" text-lg bg-slate-100  cursor-pointer rounded-full px-2 mx-1 my-2 inline-block" key={elem.id} onClick={() =>searchData(elem)}>
                   {elem.name}
                 </div>
                   )
