@@ -15,7 +15,7 @@ const SearchBar = ({ searchData }) => {
     
     
     fetch(
-      `${GEODB_API_URL}/cities?minPopulation=10000&namePrefix=${value}`,
+      `${GEODB_API_URL}/cities?minPopulation=10&namePrefix=${value}`,
       geoDbOptions
     )
       .then((response) => response.json())
