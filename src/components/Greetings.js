@@ -115,7 +115,7 @@ userData.map((elem)=>{
   </div>
 } */}
 
-<div className='mt-12 px-6'>
+<div className='mt-12 px-6  md:mx-32'>
 
 
 
