@@ -2,7 +2,7 @@ import { React, useCallback, useState } from "react";
 import { geoDbOptions, GEODB_API_URL } from "../api";
 import searchIcon from "./../resources/search.png";
 import arrowBack from "./../resources/arrow_back.png";
-import clear from "./../resources/close.png";
+// import clear from "./../resources/close.png";
 
 const SearchBar = ({ searchData }) => {
   const [searhHistory, setSearchHistoy] = useState(true);
@@ -82,7 +82,7 @@ const SearchBar = ({ searchData }) => {
           </div>
           <div className="w-0.5/6 flex justify-end rounded-r-full mr-2 " onClick={() => setSearchHistoy(false)}>
             {
-              searhHistory === false ? null:
+              searhHistory === false ?null:
               // <img src={clear} alt="clear icon" className="w-8 h-8 cursor-pointer" />:
               <img src={searchIcon} alt="search icon" className="w-8 h-8 cursor-pointer" />
             }

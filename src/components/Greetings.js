@@ -1,6 +1,5 @@
-import {React,useEffect,useState} from 'react'
+import {React} from 'react'
 // import close from "../../src/resources/close.png"
-// import edit from "../../src/resources/edit.png"
 
 const dateBuilder = (d) => {
   let months = [
@@ -52,16 +51,16 @@ else{
 
 
 const Greetings = () => {
-  // // const [changeName,setChangeName] = useState(false)
+  // const [changeName,setChangeName] = useState(false)
   // const [personNameInput,setPersonNameInput] = useState("")
   // const [userData,setUserData] = useState(JSON.parse(localStorage.getItem("user")) || [])
   // // const name = userData[0].name
-  // const [shouldShowUpdate,setShouldShowUpdate]  = useState(true)
+  // const [shouldShowUpdate,setShouldShowUpdate]  = useState(false)
 
 
 
   // if(userData.length === 0){
-  //   setShouldShowUpdate(false)
+  //   setShouldShowUpdate(true)
   // }
 
 
@@ -79,7 +78,10 @@ const Greetings = () => {
   // }
   
 
+  function reLoad(){
+    localStorage.setItem("user", JSON.stringify([]))
   
+  // }
   // useEffect(()=>{
   // localStorage.setItem("user", JSON.stringify(userData))
   
@@ -91,7 +93,7 @@ const Greetings = () => {
   return (
     <>
 {/* {
- shouldShowUpdate === false ? <div className="absolute  w-full h-full flex justify-center z-50 items-center backdrop-blur-lg  
+ shouldShowUpdate === true ? <div className="absolute  w-full h-full flex justify-center z-50 items-center backdrop-blur-lg  md:mx-32
   " ><div className="w-5/6 h-2/6 relative bg-slate-300 flex flex-col items-center justify-center rounded-lg  ">
     
     <input type="text" value={personNameInput} onChange={(e) => setPersonNameInput(e.target.value)} placeholder="Enter your name" className="h-10 w-5/6 text-lg text-center rounded-md bg-slate-100" />
@@ -115,22 +117,18 @@ userData.map((elem)=>{
   </div>
 } */}
 
-<div className='mt-12 px-6  md:mx-32'>
-
+<div className='mt-12 px-6'>
 
 
 
 
     <h2 className='text-4xl text-yellow-50 font-lato font-normal'key={123} >{messageBuild(new Date().getHours())}</h2>
-    
- 
-  
-
+   
   <p className='text-lg mt-2 text-yellow-200 font-poppins font-light '>{dateBuilder(new Date())}</p>
   </div>
 
     </>
   )
 }
-
+}
 export default Greetings
