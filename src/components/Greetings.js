@@ -37,13 +37,13 @@ const dateBuilder = (d) => {
 const messageBuild = (hour)=>{
   let welcomeLine = ""
   if (hour < 12){
-    welcomeLine = "Good Morning"
+    welcomeLine = "Good Morning !"
   }
     
 else if (hour < 18) {
-  welcomeLine = "Good Afternoon"}
+  welcomeLine = "Good Afternoon !"}
 else{
-  welcomeLine = "Good Evening"
+  welcomeLine = "Good Evening !"
 } 
  return welcomeLine 
 
