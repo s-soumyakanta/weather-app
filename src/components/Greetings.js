@@ -1,5 +1,6 @@
 import {React,useEffect,useState} from 'react'
 import close from "../../src/resources/close.png"
+import edit from "../../src/resources/edit.png"
 
 const dateBuilder = (d) => {
   let months = [
@@ -78,10 +79,7 @@ const Greetings = () => {
   }
   
 
-  function reLoad(){
-    localStorage.setItem("user", JSON.stringify([]))
   
-  }
   useEffect(()=>{
   localStorage.setItem("user", JSON.stringify(userData))
   
@@ -105,9 +103,10 @@ userData.map((elem)=>{
   return(
 
 
-
-    <h2 className='text-xl text-yellow-50 font-poppins font-normal'key={123} >{messageBuild(new Date().getHours())}, <span className='text-3xl font-ubuntu font-bold' onClick={ () => reLoad()}>{elem.name}</span></h2>
-    
+<div className=' flex items-baseline'>
+    <h2 className=' text-xl text-yellow-50 font-poppins font-normal'key={123} >{messageBuild(new Date().getHours())}, <span className='text-3xl font-ubuntu font-bold' onClick={()=> setShouldShowUpdate(!shouldShowUpdate)}>{elem.name} !</span></h2>
+    <img src={edit} alt="edit name" className='  w-4 h-4 border-solid border-slate-500 m-1  rounded-full border-2' />
+   </div >
     )
   })
   
