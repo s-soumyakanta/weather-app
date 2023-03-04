@@ -88,7 +88,7 @@ const Greetings = () => {
   // },[shouldShowUpdate])
 
 
-
+console.log("Greetings component rendered")
 
   return (
     <>

@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Footer = () => {
+  console.log("Footer rendered")
   return (
     <>
     <div className='mt-4 px-6 pb-2  text-md  flex justify-between font-poppins md:mx-32'>

@@ -61,6 +61,7 @@ const SearchBar = ({ searchData }) => {
     searchData(elem)
     setSearchHistoy(true)
  }
+ console.log("Search component rendered")
   return (
     <>
       <div className="p-6 flex justify-center relative font-ubuntu   md:mx-32   ">

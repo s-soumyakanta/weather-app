@@ -5,7 +5,7 @@ import wind from "../resources/wind_speed.png"
 
 
 const WeatherInfo = ({data}) => {
-  
+  console.log('Weather info rendered')
   return (
     <>
     
