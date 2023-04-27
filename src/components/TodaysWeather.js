@@ -6,24 +6,33 @@ import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 const TodaysWeather = () => {
   return (
    <>
-     <div className='h-96 mt-6 m-2 rounded-2xl bg-blue-100'>
+     <div className='h-96 mt-6  rounded-2xl bg-blue-400 shadow-md shadow-blue-100'>
     
       <div className="top flex flex-col items-center rounded-t-2xl h-3/4 pb-4">
         <div className='h-2/6  rounded-t-2xl w-full flex justify-center items-center flex-col'>
           <p className='text-4xl font-lato '>Bhubaneswar</p>
           <p className='text-lg font-mono '> India</p>
         </div>
-        <div className='h-4/6 w-full  flex flex-col items-center justify-between relative z-10'>
-          <p className='h-4/6 font-lato   text-9xl flex justify-center items-center'>
+        <div className='h-4/6 w-full  flex flex-col items-center justify-between  z-10'>
+          <div className='h-4/6  w-full relative'>
+
+          <p className=' font-lato   text-9xl flex justify-center items-center'>
             22
             </p>
-            <p className='1/6 font-ubuntu'>
+           <img src={img1} alt="imgone" className='absolute bottom-0 right-10 -z-10' />
+          </div>
+          <div className='h-1/6'>
+
+            <p className=' font-ubuntu'>
               partically  hot
             </p>
+          </div>
+          <div className='h-1/6 flex  items-end justify-center'>
+
             <p className='1/6 font-bold text-sm font-ubuntu'>
             &deg;C | &deg;F
             </p>
-           <img src={img1} alt="imgone" className='absolute bottom-0 right-0 -z-10' />
+          </div>
 
           
         </div>
@@ -34,7 +43,7 @@ const TodaysWeather = () => {
           <div className='flex justify-center items-center pl-2'>
             <AccessTimeIcon />
           </div>
-          <div>
+          <div className='text-lg font-semibold'>
             <p>4:40 pm <span>| IST</span></p>
           </div>
         </div>
@@ -42,7 +51,7 @@ const TodaysWeather = () => {
           <div className='flex justify-center items-center pl-2'>
             <CalendarTodayIcon />
           </div>
-          <div>
+          <div className='text-lg font-semibold' >
             <p>24 may 2023 <span>Monday</span></p>
           </div>
         </div>

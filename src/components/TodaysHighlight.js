@@ -88,17 +88,17 @@ const TodaysHighlight = () => {
   }
   return (
     <>
-   <div className="mainDiv space-y-4 m-2 mt-6">
-    <div className="topHeading h-8 bg-lime-300">
-      <h2 className='text-xl'>Today's Highlight</h2>
+   <div className="mainDiv  mt-6 md:h-96 bg-blue-700 bg-opacity-10  rounded-2xl  drop-shadow-lg md:w-full  ">
+    <div className="topHeading md:h-[6%] p-2 pl-4 ">
+      <h2 className='text-base'>Today's Highlight</h2>
     </div>
-    <div className="bottomMainDiv space-y-8 ">
-      <div className="bigDivs space-y-3">
-        <div className="div1 h-64 bg-slate-300 rounded-2xl">
+    <div className="bottomMainDiv space-y-8 p-4 md:space-y-3 md:h-[94%] md:flex md:flex-col md:justify-between">
+      <div className="bigDivs space-y-3  md:flex md:space-y-0 md:space-x-3 md:h-4/6 ">
+        <div className="div1 h-64 bg-slate-300 rounded-2xl md:w-1/3 md:h-auto">
 
           <div className='h-full'>
             <div className='h-1/6  flex items-center pl-4'>
-              <p className='text-2xl font-lato'>Tempreture</p>
+              <p className='text-lg font-lato'>Tempreture</p>
             </div>
             <div className="body h-3/6 w-full flex justify-center items-center">
             <Bar data={tempData} options={tempOptions} />
@@ -106,11 +106,10 @@ const TodaysHighlight = () => {
             <div className='h-2/6 flex items-center  justify-between '>
               
               <div className='w-2/6 flex items-center flex-col justify-center'>
-                <p className='  font-ubuntu text-lg'>Feels like</p>
-
-                <p className=' text-4xl'>45&deg;</p>
+                <p className='  font-ubuntu text-sm'>Feels like</p>
+                <p className=' text-2xl '>45&deg;</p>
               </div>
-              <div className='w-4/6 text-lg font-semibold flex  flex-col items-end pr-8'>
+              <div className='w-4/6 text-sm font-semibold flex  flex-col items-end pr-8'>
                 <p>min - 25</p>
                 <p>max -36</p>
                 </div>
@@ -120,10 +119,10 @@ const TodaysHighlight = () => {
 
           </div>
         </div>
-        <div className="div1 h-64 bg-slate-300 rounded-2xl">
+        <div className="div2 h-64 bg-slate-300 rounded-2xl md:w-1/3 md:h-auto">
         <div className='h-full'>
-            <div className='h-1/6  flex items-center pl-4'>
-              <p className='text-2xl font-lato'>Sunrise & Sunset</p>
+            <div className='h-1/6  flex items-center pl-4 w-full'>
+              <p className='text-lg  font-lato'>Sunrise & Sunset</p>
             </div>
             <div className="body h-3/6  flex  mx-4">
               <div className='w-2/4'>
@@ -139,37 +138,37 @@ const TodaysHighlight = () => {
               
              
                 <div className='font-semibold'>
-                  <p className='text-lg'>Sunrise</p>
-                  <p className='text-xl'>06:44 AM</p>
+                  <p className='text-base'>Sunrise</p>
+                  <p className='text-lg'>06:44 AM</p>
                 </div>
                 <div className='font-semibold'>
-                  <p className='text-lg'>Sunset</p>
-                  <p className='text-xl'>05:44 PM</p>
+                  <p className='text-base'>Sunset</p>
+                  <p className='text-lg'>05:44 PM</p>
                 </div>
             </div>
 
 
           </div>
         </div>
-        <div className="div1 h-64 bg-slate-300 rounded-2xl">
+        <div className="div1 h-64 bg-slate-300 rounded-2xl md:w-1/3 md:h-auto">
         <div className='h-full'>
             <div className='h-1/6  flex items-center pl-4'>
-              <p className='text-2xl font-lato'>Wind Status</p>
+              <p className='text-lg font-lato'>Wind Status</p>
             </div>
             <div className="body h-3/6 flex justify-center w-full items-center">
             <Doughnut data={speedData} options={speedOptions}/>
             </div>
-            <div className='h-2/6 flex items-center  justify-center mx-4 '>
+            <div className='h-2/6 flex items-center  justify-between mx-4 '>
               
              
                 <div className='font-semibold'>
-                  {/* <p className='text-lg'>Speed</p> */}
-                  <p className='text-2xl'>54<span className='text-lg'>km/h</span></p>
+                  <p className='text-base'>Speed</p>
+                  <p className='text-lg'>54<span className='text-lg'>km/h</span></p>
                 </div>
-                {/* <div className='font-semibold'>
-                  <p className='text-lg'>Direction</p>
-                  <p className='text-2xl'>140&deg;</p>
-                </div> */}
+                <div className='font-semibold'>
+                  <p className='text-base'>Direction</p>
+                  <p className='text-lg'>140&deg;</p>
+                </div>
             </div>
 
 
@@ -177,41 +176,41 @@ const TodaysHighlight = () => {
         </div>
 
       </div>
-      <div className="smallDivs space-y-3">
-        <div className="div1 h-32 bg-fuchsia-300 rounded-2xl">
-          <div className='h-full flex mx-4'>
-            <div className='w-3/6 flex flex-col justify-between my-4 '>
-              <p className="text-2xl font-semibold font-ubuntu">Pressure</p>
+      <div className="smallDivs space-y-3 md:space-y-0 md:space-x-3 md:h-2/6 md:flex md:w-full  ">
+        <div className="div1 h-28 md:h-auto bg-fuchsia-300 rounded-2xl md:w-1/3  ">
+          <div className='h-full flex mx-4 md:mx-2'>
+            <div className='w-3/6 flex flex-col justify-between  my-2 '>
+              <p className="text-lg font-semibold font-ubuntu">Pressure</p>
               <p className='text-4xl font-bold font-mono'>54</p>
             </div>
-            <div className='w-3/6 flex flex-col-reverse mb-4 space-y-2'>
-              <p className='mt-2'>this kind of pressuer is suitable</p>
+            <div className='w-3/6 flex flex-col-reverse mb-4 md:mb-1 space-y-2 md:pl-1 '>
+              <p className='mt-2 text-xs'>this kind of pressuer is suitable</p>
               <CompressOutlinedIcon fontSize='small' />
             </div>
 
           </div>
         </div>
-        <div className="div1 h-32 bg-fuchsia-400 rounded-2xl">
-        <div className='h-full flex mx-4'>
-            <div className='w-3/6 flex flex-col justify-between my-4 '>
-              <p className="text-2xl font-semibold font-ubuntu">Humidity</p>
+        <div className="div1 h-28 md:h-auto bg-fuchsia-400 rounded-2xl md:w-1/3">
+        <div className='h-full flex mx-4 md:mx-2 md:w-full'>
+            <div className='w-3/6 flex flex-col justify-between my-2  '>
+              <p className="text-lg font-semibold font-ubuntu">Humidity</p>
               <p className='text-4xl font-bold font-mono'>54</p>
             </div>
-            <div className='w-3/6 flex flex-col-reverse mb-4 space-y-2'>
-              <p className='mt-2'>this kind of pressuer is suitable</p>
+            <div className='w-3/6 flex flex-col-reverse mb-4 md:mb-1 space-y-2 md:pl-1'>
+              <p className='mt-2 text-xs'>this kind of pressuer is suitable</p>
               <WaterDropOutlinedIcon fontSize='small' />
             </div>
 
           </div>
         </div>
-        <div className="div1 h-32 bg-fuchsia-500 rounded-2xl">
-        <div className='h-full flex mx-4'>
-            <div className='w-3/6 flex flex-col justify-between my-4 '>
-              <p className="text-2xl font-semibold font-ubuntu">Visibility</p>
+        <div className="div1 h-28 bg-fuchsia-500 rounded-2xl md:w-1/3 md:h-auto">
+        <div className='h-full flex mx-4 md:mx-2'>
+            <div className='w-3/6 flex flex-col justify-between my-2 '>
+              <p className="text-lg font-semibold font-ubuntu">Visibility</p>
               <p className='text-4xl font-bold font-mono'>54</p>
             </div>
-            <div className='w-3/6 flex flex-col-reverse mb-4 space-y-2'>
-              <p className='mt-2'>this kind of pressuer is suitable</p>
+            <div className='w-3/6 flex flex-col-reverse mb-4 space-y-2 md:mb-1 md:pl-1 '>
+              <p className='mt-2 text-xs'>this kind of pressuer is suitable</p>
               <VisibilityOutlinedIcon fontSize='small' />
             </div>
 
