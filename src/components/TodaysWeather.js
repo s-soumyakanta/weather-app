@@ -6,7 +6,7 @@ import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 const TodaysWeather = () => {
   return (
    <>
-     <div className='h-96 mt-6  rounded-2xl bg-blue-400 shadow-md shadow-blue-100'>
+     <div className='h-96 mt-6  rounded-2xl bg-white bg-opacity-90  shadow-sm dark:bg-gray-700   '>
     
       <div className="top flex flex-col items-center rounded-t-2xl h-3/4 pb-4">
         <div className='h-2/6  rounded-t-2xl w-full flex justify-center items-center flex-col'>
@@ -16,7 +16,7 @@ const TodaysWeather = () => {
         <div className='h-4/6 w-full  flex flex-col items-center justify-between  z-10'>
           <div className='h-4/6  w-full relative'>
 
-          <p className=' font-lato   text-9xl flex justify-center items-center'>
+          <p className=' font-lato   text-9xl flex justify-center items-center text-blue-800  dark:text-blue-600'>
             22
             </p>
            <img src={img1} alt="imgone" className='absolute bottom-0 right-10 -z-10' />
@@ -38,12 +38,12 @@ const TodaysWeather = () => {
         </div>
 
       </div>
-      <div className="bottom h-1/4 border-t-2  border-gray-400">
+      <div className="bottom h-1/4 border-t-2  dark:border-gray-600 border-gray-300">
         <div className='flex w-full h-1/2  justify-start space-x-4 items-center'>
           <div className='flex justify-center items-center pl-2'>
             <AccessTimeIcon />
           </div>
-          <div className='text-lg font-semibold'>
+          <div className='text-md font-semibold'>
             <p>4:40 pm <span>| IST</span></p>
           </div>
         </div>
@@ -51,7 +51,7 @@ const TodaysWeather = () => {
           <div className='flex justify-center items-center pl-2'>
             <CalendarTodayIcon />
           </div>
-          <div className='text-lg font-semibold' >
+          <div className='text-md font-semibold' >
             <p>24 may 2023 <span>Monday</span></p>
           </div>
         </div>

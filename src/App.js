@@ -10,8 +10,8 @@ import Maps from './components/Maps'
 const App = () => {
   return (
     <>
-      <div className='h-auto       drop-shadow-lg md:h-[100vh]  p-4 space-y-1'>
-          <div className='md:h-[7%]   bg-opacity-30    drop-shadow-lg flex rounded-lg items-center'>
+      <div className='h-auto md:h-[100vh]  p-4 space-y-1 relative bg-slate-400 dark:bg-gray-900 dark:text-gray-50'>
+          <div className='md:h-[7%]   bg-opacity-30    drop-shadow-lg flex rounded-lg items-center sticky top-0 z-20'>
           <Navbar />
           </div>
           <div className='w-full flex flex-col h-auto  md:h-[88%] space-y-4 '>
@@ -28,7 +28,7 @@ const App = () => {
                 <Maps />
 
               </div>
-              <div className='md:w-4/6 bg-red-500 rounded-2xl overflow-x-scroll  hide-scroll-bar'>
+              <div className='md:w-4/6 rounded-2xl overflow-x-scroll  hide-scroll-bar'>
 
           <Forecast />
               </div>
