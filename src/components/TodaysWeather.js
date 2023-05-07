@@ -77,9 +77,9 @@ const TodaysWeather = () => {
              {weatherData.weather[0].description}
             </p>
           </div>
-          <div className='h-1/6 flex font-ubuntu text-base  items-end  w-12 space-x-1 justify-center' onClick={()=> setTemp(!temp)}>
+          <div className='h-1/6 flex font-ubuntu text-base  items-end  w-12 space-x-1 justify-center cursor-pointer ' onClick={()=> setTemp(!temp)}>
 
-            <p className= {temp ? "text-sm font-semibold": 'font-bold text-lg'}>
+            <p className= {temp ? "text-sm font-semibold ": 'font-bold text-lg'}>
             &deg;C 
             </p>
             <p>|</p>
