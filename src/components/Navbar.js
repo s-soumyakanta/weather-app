@@ -72,7 +72,7 @@ const Navbar = () => {
 
         <p className='text-xs  text-blue-700 hidden
                       font-ubuntu font-bold md:block md:text-lg'>
-                      Climacast
+                      WeatherSnap
         </p>
         <p className=' text-blue-700 md:hidden
                       font-ubuntu font-bold md:text-lg'>
