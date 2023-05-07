@@ -4,3 +4,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+.leaflet-container{
+  min-height: 12.5rem;
+  border-radius: 1rem;
+}
