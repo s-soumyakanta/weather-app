@@ -76,7 +76,7 @@ const Navbar = () => {
         </p>
         <p className=' text-blue-700 md:hidden
                       font-ubuntu font-bold md:text-lg'>
-                      CC
+                      ws
         </p>
 
       </div>
