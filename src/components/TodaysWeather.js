@@ -49,8 +49,7 @@ const dateBuilder = (d) => {
 const TodaysWeather = () => {
   const [temp,setTemp] = useState(false)
   const {data:weatherData} = useSelector((state) => state.weather)
-  const {locationDetail:location} = useSelector((state)=> state.location)
-  const locationName = useSelector((state) => state.placeName)
+ const locationName = useSelector((state) => state.placeName)
 
  const tempretureInCelcious = Math.round(weatherData.main.temp)
  const tempretureInFahrenheit = Math.round(((Math.round(weatherData.main.temp))*9/5) +32)
@@ -78,10 +77,14 @@ const TodaysWeather = () => {
              {weatherData.weather[0].description}
             </p>
           </div>
-          <div className='h-1/6 flex  items-end justify-center' onClick={()=> setTemp(!temp)}>
+          <div className='h-1/6 flex font-ubuntu text-base  items-end  w-12 space-x-1 justify-center' onClick={()=> setTemp(!temp)}>
 
-            <p className='1/6 font-bold text-sm font-ubuntu'>
-            &deg;C | &deg;F
+            <p className= {temp ? "text-sm font-semibold": 'font-bold text-lg'}>
+            &deg;C 
+            </p>
+            <p>|</p>
+            <p className={temp ? 'font-bold text-lg':"text-sm font-semibold"}>
+             &deg;F
             </p>
           </div>
 
