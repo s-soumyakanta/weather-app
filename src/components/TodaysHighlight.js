@@ -14,7 +14,6 @@ Chart.register(ChartDataLabels);
 const TodaysHighlight = () => {
 
   const {data:weatherData} = useSelector((state) => state.weather)
-  const {locationDetail:location} = useSelector((state)=> state.location)
   const locationName = useSelector((state) => state.placeName)
 
   const sunrise = new Date(weatherData.sys.sunrise).getHours()% 12 || 12
