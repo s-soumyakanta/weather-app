@@ -36,8 +36,17 @@ const Navbar = () => {
     dispatch(fetchWeather({lat,lon}))
     dispatch(fetchForcast({lat,lon}))
     dispatch(locateAreaOnMap({lat:lat,lon:lon}))
-    dispatch(getLocationDetail({name:name,country:country,latitude:lat,longitude:lon}))
     dispatch(geoDbPlaceName({name:name,country:country}))
+    
+    
+    
+    const allAreaName = location.map(elem => elem.name)
+    
+    if(allAreaName.includes(name)){ 
+    }
+    else{
+      dispatch(getLocationDetail({name:name,country:country,latitude:lat,longitude:lon}))
+    }
   }
 
   const debounce = (func) => {
