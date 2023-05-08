@@ -129,7 +129,7 @@ const TodaysHighlight = () => {
                       md:space-y-0 md:space-x-3
                       md:h-4/6">
         <div className="h-64 rounded-2xl
-                       md:w-1/3 md:h-auto
+                       md:w-[32%] md:h-auto
                        bg-white bg-opacity-80 
                         shadow-sm dark:bg-gray-700 ">
 
@@ -157,7 +157,7 @@ const TodaysHighlight = () => {
 
           </div>
         </div>
-        <div className=" h-64  rounded-2xl md:w-1/3
+        <div className=" h-64  rounded-2xl md:w-[32%]
                          md:h-auto  bg-white bg-opacity-80 
                          shadow-sm dark:bg-gray-700 ">
         <div className='h-full'>
@@ -185,7 +185,7 @@ const TodaysHighlight = () => {
         </div>
         <div className="rounded-2xl bg-white
                         bg-opacity-80  shadow-sm
-                         md:w-1/3 md:h-auto  dark:bg-gray-700 ">
+                        md:w-[32%] md:h-auto  dark:bg-gray-700 ">
         <div className='h-full'>
             <div className='h-1/6  flex items-center pl-4'>
               <p className='text-lg font-lato   '>Wind Status</p>
@@ -220,7 +220,7 @@ const TodaysHighlight = () => {
       <div className="smallDivs space-y-3 
                       md:space-y-0 md:space-x-3 
                       md:h-2/6 md:flex md:w-full  ">
-        <div className="h-28  rounded-2xl md:w-1/3
+        <div className="h-28  rounded-2xl md:w-[32%]
                        bg-white bg-opacity-80  
                        shadow-sm dark:bg-gray-700 
                        md:h-auto ">
@@ -235,7 +235,7 @@ const TodaysHighlight = () => {
             </div>
           </div>
         </div>
-        <div className="h-28 rounded-2xl md:w-1/3
+        <div className="h-28 rounded-2xl md:w-[32%]
                        bg-white bg-opacity-80  
                        shadow-sm dark:bg-gray-700 
                        md:h-auto ">
@@ -251,17 +251,17 @@ const TodaysHighlight = () => {
 
           </div>
         </div>
-        <div className="h-28 rounded-2xl md:w-1/3
+        <div className="h-28 rounded-2xl md:w-[32%]
                        bg-white bg-opacity-80  
                        shadow-sm dark:bg-gray-700 
                        md:h-auto ">
         <div className='h-full flex mx-4 md:mx-2'>
             <div className='w-3/6 flex flex-col justify-between my-2 '>
               <p className="text-lg font-semibold font-ubuntu  ">Visibility</p>
-              <p className='text-2xl font-bold font-mono text-blue-800  dark:text-blue-600'>{weatherData.visibility}<span className='text-xs'>km</span></p>
+              <p className='text-2xl font-bold font-mono text-blue-800  dark:text-blue-600'>{weatherData.visibility}<span className='text-xs'>m</span></p>
             </div>
             <div className='w-3/6 flex flex-col-reverse mb-4 space-y-2 md:mb-1 md:pl-1   '>
-              <p className='mt-2 text-xs'>Visibility upto {weatherData.visibility}km at {locationName.length === 0 ? weatherData.name: locationName[0].name}</p>
+              <p className='mt-2 text-xs'>Visibility upto {weatherData.visibility} meters at {locationName.length === 0 ? weatherData.name: locationName[0].name}</p>
               <VisibilityOutlinedIcon fontSize='small' />
             </div>
 

@@ -78,7 +78,7 @@ const Forcast = () => {
       newForecastData?.map(item =>{
         return(
           
-<div className='inline-block' key={item.dt}>
+<div className='inline-block ' key={item.dt}>
 
     <div className='w-32 overflow-hidden  my-1 mx-3 rounded-2xl
                     h-48 flex   flex-col items-center  
