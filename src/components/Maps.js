@@ -28,7 +28,7 @@ const icon = new Icon({
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
     />
       <TileLayer
-      attribution='POK & Aksai Chin is integral part of India. Correct <a href="https://surveyofindia.gov.in/documents/polmap-eng-11012021.jpg">map</a> of India'
+      attribution='POK & Aksai Chin is integral part of India. Correct <a href="https://surveyofindia.gov.in/documents/polmap-eng-11012021.jpg">map</a> of India.'
         url={url}
       
       />
