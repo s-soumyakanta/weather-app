@@ -24,7 +24,7 @@ const App = () => {
     return(
       <>
           <div className='w-full flex flex-col h-auto  md:h-[88%] space-y-2 relative '>
-        <div className="top flex w-full flex-col md:flex-row md:h-4/6  md:space-x-4">
+        <div className="top flex w-full flex-col md:flex-row md:h-4/6  md:space-x-4 ">
          <div className="left md:w-2/6">
            <TodaysWeather />
          </div>
@@ -32,7 +32,7 @@ const App = () => {
            <TodaysHighlight />
         </div>
         </div>
-        <div className="bottom w-full md:h-2/6 md:space-x-4 flex h-auto md:flex-row flex-col   ">
+        <div className="bottom w-full md:h-2/6 md:space-x-4 flex h-auto md:flex-row flex-col space-y-3   ">
           <div className='md:w-2/6  rounded-2xl md:h-auto  flex justify-center items-center '>
             <Maps />
           </div>
