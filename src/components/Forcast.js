@@ -59,17 +59,17 @@ const Forcast = () => {
     <div className='w-full h-full rounded-2xl 
                     flex flex-row overflow-x-scroll 
                     hide-scroll-bar  
-                    bg-white bg-opacity-60  shadow-sm
+                    bg-white bg-opacity-40  shadow-sm
                     dark:bg-gray-800 overflow-y-hidden '>
       <div className='w-2/6 md:w-1/6  flex justify-center 
                       items-center font-ubuntu font-bold 
                       text-2xl md:text-xl pl-2  rounded-l-2xl
-                         bg-white bg-opacity-70  
+                         bg-white bg-opacity-60  
                       shadow-sm dark:bg-gray-700 '>
         {newForecastData?.length} day forecast
       </div>
       <div className='flex w-4/6 md:w-5/6  '>
-        <div className='flex overflow-x-scroll overflow-y-none  hide-scroll-bar   '>
+        <div className='flex overflow-x-scroll overflow-y-hidden  hide-scroll-bar   '>
 
         
         <div className='flex flex-nowrap space-x-3   '>
@@ -78,11 +78,11 @@ const Forcast = () => {
       newForecastData?.map(item =>{
         return(
           
-<div className='inline-block ' key={item.dt}>
+<div className='inline-block h-[90%] ' key={item.dt}>
 
     <div className='w-32 overflow-hidden  my-1 mx-3 rounded-2xl
                     h-48 flex   flex-col items-center  
-                    bg-white bg-opacity-80  shadow-sm 
+                    bg-white bg-opacity-80  
                      dark:bg-gray-700 md:h-48 '>
         <p className='h-1/6 text-xl  border-b-2 
                      border-slate-500 w-4/5 pb-1 

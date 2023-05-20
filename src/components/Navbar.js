@@ -19,7 +19,6 @@ const Navbar = () => {
   const dispatch = useDispatch();
   
 
-
   useEffect(()=>{
     toggleDarkMode === true ? 
                        root.add('dark')
@@ -71,7 +70,7 @@ const Navbar = () => {
 
   return(
   <>
-    <nav className='flex w-full h-12 justify-between 
+    <nav id='nav' className='flex w-full h-12 justify-between 
                     items-center  rounded-2xl
                     bg-white bg-opacity-90 
                     shadow-sm dark:bg-gray-700'>
@@ -91,7 +90,7 @@ const Navbar = () => {
       </div>
 
       
-      <div className='w-4/6 flex justify-start relative items-center bg-slate-300 dark:bg-slate-800 rounded-full' onClick={()=>setIsSearchOn(!isSearchOn)}>
+      <div className='w-4/6 flex justify-start relative items-center bg-slate-100 dark:bg-slate-800 rounded-full' onClick={()=>setIsSearchOn(!isSearchOn)}>
         <div className='h-full w-full flex items-center  justify-between px-2'>
         <div className=' w-[8%] flex justify-center items-center' onClick={(e)=>{e.stopPropagation();setIsSearchOn(!isSearchOn)}} >
         <div>
@@ -103,7 +102,7 @@ const Navbar = () => {
         </div>
           <div className='w-[92%] '>
 
-          <input type="text" className=' w-full pl-2 h-7 bg-slate-300 rounded-r-full
+          <input type="text" className=' w-full pl-2 h-7 bg-slate-100 rounded-r-full
                       outline-none 
                       darK:text-white dark:bg-slate-800' 
            placeholder='Search a location...'
