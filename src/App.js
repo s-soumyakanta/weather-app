@@ -43,7 +43,7 @@ const App = () => {
             <Forecast />
           </div>
         </div>
-        <div className='w-12 h-12 md:w-14 md:h-14 bg-blue-700 
+        <div className='w-14 h-14 bg-blue-700 
                     shadow-sm sticky bottom-12 md:bottom-0 right-0 md:absolute  rounded-full  z-20  flex justify-center  items-center text-white cursor-pointer' onClick={geoLocation}>
                       <MyLocationOutlinedIcon fontSize='medium'  />
           </div>
