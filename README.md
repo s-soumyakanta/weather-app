@@ -2,7 +2,7 @@
 
 # Weathersnap - React Weather App<h3> <a href="https://s-soumyakanta.github.io/weather-app/">Live Link </a></h3>
 
-![WeatherSnap](src/assets/dp1.png)
+![WeatherSnap](./src/assets/dp1.png)
 
 Weathersnap is a fully-featured weather application built with React, Redux Toolkit, and Chart.js. It allows users to check the current weather and forecast for any location worldwide. The app provides an interactive map view using Leaflet.js, auto-complete search functionality powered by GeoDB API, and advanced UI elements.
 
