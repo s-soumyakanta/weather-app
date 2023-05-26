@@ -2,7 +2,7 @@
 
 # Weathersnap - React Weather App<h3> <a href="https://s-soumyakanta.github.io/weather-app/">Live Link </a></h3>
 
-![WeatherSnap](./src/assets/dp1.png)
+![WeatherSnap](src/assets/dp1.png)
 
 Weathersnap is a fully-featured weather application built with React, Redux Toolkit, and Chart.js. It allows users to check the current weather and forecast for any location worldwide. The app provides an interactive map view using Leaflet.js, auto-complete search functionality powered by GeoDB API, and advanced UI elements.
 
@@ -52,19 +52,19 @@ To get a local copy up and running, follow these steps:
 
 #### Light Mode
 
-![Light Mode](../src/assets/dp1.png)
+![Light Mode](src/assets/dp1.png)
 
-![Light Mode](../src/assets/dp3.png)
+![Light Mode](src/assets/dp3.png)
 
-![Light Mode](../src/assets/dp5.png)
+![Light Mode](src/assets/dp5.png)
 
 #### Dark Mode
 
-![Dark Mode](../src/assets/dp2.png)
+![Dark Mode](src/assets/dp2.png)
 
-![Dark Mode](../src/assets/dp4.png)
+![Dark Mode](src/assets/dp4.png)
 
-![Dark Mode](../src/assets/dp6.png)
+![Dark Mode](src/assets/dp6.png)
 
 
 
@@ -72,21 +72,21 @@ To get a local copy up and running, follow these steps:
 
 #### Light Mode
 
-![Light Mode](../src/assets/mb1.png)
+![Light Mode](src/assets/mb1.png)
 
-![Light Mode](../src/assets/mb3.png)
+![Light Mode](src/assets/mb3.png)
 
-![Light Mode](../src/assets/mb5.png)
+![Light Mode](src/assets/mb5.png)
 
 #### Dark Mode
 
-![Dark Mode](../src/assets/mb2.png)
+![Dark Mode](src/assets/mb2.png)
 
-![Dark Mode](../src/assets/mb4.png)
+![Dark Mode](src/assets/mb4.png)
 
-![Dark Mode](../src/assets/mb6.png)
+![Dark Mode](src/assets/mb6.png)
 
-![Dark Mode](../src/assets/mb7.png)
+![Dark Mode](src/assets/mb7.png)
 
 
 
