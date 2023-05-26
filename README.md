@@ -51,11 +51,11 @@ To get a local copy up and running, follow these steps:
 
 #### Light Mode
 
-![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/36118759-b98e-44ea-845c-aa133b55eaac)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/1f5bde14-f313-4dbf-83cd-f3b1f2f22191)
 
 ![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/f310b280-d866-47ab-b632-1cea0eb85c2a)
 
-![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/29c8e616-d0be-466c-b77e-f03acbfe2786)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/27ea8d18-144d-4c87-80fc-bbea913b18ae)
 
 
 #### Dark Mode
