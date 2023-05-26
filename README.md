@@ -1,8 +1,7 @@
 
 
 # Weathersnap - React Weather App<h3> <a href="https://s-soumyakanta.github.io/weather-app/">Live Link </a></h3>
-
-![WeatherSnap](src/assets/dp1.png)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/b8d6e51c-b15e-4529-ac5b-fd6c9322e41b)
 
 Weathersnap is a fully-featured weather application built with React, Redux Toolkit, and Chart.js. It allows users to check the current weather and forecast for any location worldwide. The app provides an interactive map view using Leaflet.js, auto-complete search functionality powered by GeoDB API, and advanced UI elements.
 
@@ -52,19 +51,20 @@ To get a local copy up and running, follow these steps:
 
 #### Light Mode
 
-![Light Mode](src/assets/dp1.png)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/36118759-b98e-44ea-845c-aa133b55eaac)
 
-![Light Mode](src/assets/dp3.png)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/f310b280-d866-47ab-b632-1cea0eb85c2a)
 
-![Light Mode](src/assets/dp5.png)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/29c8e616-d0be-466c-b77e-f03acbfe2786)
+
 
 #### Dark Mode
 
-![Dark Mode](src/assets/dp2.png)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/be72cb1f-541f-47f8-932b-241623711167)
 
-![Dark Mode](src/assets/dp4.png)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/5c248635-6e0e-4563-a288-96b72a40db79)
 
-![Dark Mode](src/assets/dp6.png)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/494aee7c-1215-4252-a73a-dba7dd2eb6b9)
 
 
 
@@ -72,26 +72,22 @@ To get a local copy up and running, follow these steps:
 
 #### Light Mode
 
-![Light Mode](src/assets/mb1.png)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/69ef5bec-9517-4d2d-bb9d-6cfd29524cb3)
 
-![Light Mode](src/assets/mb3.png)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/b81c8d11-aaf8-4fbe-aef2-6ecc397dc96d)
 
-![Light Mode](src/assets/mb5.png)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/89254a6c-d66c-4fa3-8c60-450cfe0c7ba5)
+
 
 #### Dark Mode
 
-![Dark Mode](src/assets/mb2.png)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/bdb24280-d29b-4fb1-ac30-29d686d8ce25)
 
-![Dark Mode](src/assets/mb4.png)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/ea1deb5b-c45f-414f-876b-75a108230dfd)
 
-![Dark Mode](src/assets/mb6.png)
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/1f7e082d-4032-4726-bfad-52239c3466a3)
 
-![Dark Mode](src/assets/mb7.png)
-
-
-
-
-
+![Weathersnap](https://github.com/s-soumyakanta/weather-app/assets/92138792/2d6696ba-4535-47e0-abe5-9878fe2fe376)
 
 ## Contributing
 
